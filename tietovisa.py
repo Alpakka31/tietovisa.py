@@ -140,7 +140,7 @@ def tietovisa():
 
     #Kysymys 9
     q9 = input("Mikä on BIOS koko nimeltään? >_ ")
-    if q9 == "Basic Input/Output System" or q9 == "basic input/output system":
+    if q9.lower() == "basic input/output system":
         score += 1
         print("Oikein! " + "Pisteesi on " + str(score) + " tällä hetkellä.")
     else:
@@ -171,7 +171,7 @@ def tietovisa():
 
     #Kysymys 11
     q11 = input("Mikä on HTTP koko nimeltään? >_ ")
-    if q11 == "HyperText Transfer Protocol" or q11 == "Hypertext Transfer Protocol" or q11 == "hypertext transfer protocol":
+    if q11.lower() == "hypertext transfer protocol":
         score += 1
         print("Oikein! " + "Pisteesi on " + str(score) + " tällä hetkellä.")
 
@@ -185,7 +185,7 @@ def tietovisa():
 
     #Kysymys 12
     q12 = input("Mikä on HTTPS koko nimeltään? >_ ")
-    if q12 == "HyperText Transfer Protocol Secure" or q12 == "Hypertext Transfer Protocol Secure" or q12 == "hypertext transfer protocol secure":
+    if q12.lower() == "hypertext transfer protocol secure":
         score += 1
         print("Oikein! " + "Pisteesi on " + str(score) + " tällä hetkellä.")
 
@@ -198,7 +198,7 @@ def tietovisa():
 
     #Kysymys 13
     q13 = input("Mikä on FTP koko nimeltään? >_ ")
-    if q13 == "File Transfer Protocol" or q13 == "file transfer protocol":
+    if q13.lower() == "file transfer protocol":
         score += 1
         print("Oikein! " + "Pisteesi on " + str(score) + " tällä hetkellä.")
 
@@ -212,7 +212,7 @@ def tietovisa():
 
     #Kysymys 14
     q14 = input("Mikä on SFTP koko nimeltään? >_ ")
-    if q14 == "SSH File Transfer Protocol" or q14 == "ssh file transfer protocol":
+    if q14.lower() == "ssh file transfer protocol":
         score += 1
         print("Oikein! " + "Pisteesi on " + str(score) + " tällä hetkellä.")
 
